@@ -1,32 +1,25 @@
 {
-	"name":             "pattern-lab/styleguidekit-twig-default",
-	"description":      "The default Twig-based StyleguideKit for Pattern Lab. Contains styles and mark-up for Pattern Lab's front-end.",
+	"name":             "mytoysgroup/styleguidekit-twig-default",
+	"description":      "Fork from pattern-lab/styleguidekit-twig-default; The default Twig-based StyleguideKit for Pattern Lab. Contains styles and mark-up for Pattern Lab's front-end.",
 	"keywords":         ["twig", "pattern lab", "styleguide"],
-	"homepage":         "http://patternlab.io",
 	"license":          "MIT",
 	"type":             "patternlab-styleguidekit",
 	"authors": [
 		{
-			"name":         "Dave Olsen",
-			"email":        "dmolsen@gmail.com",
-			"homepage":     "http://dmolsen.com",
-			"role":         "Lead Developer"
+			"name":         "Ingo Beyerlein",
+			"email":        "ingo.beyerlein@mytoys.de",
+			"role":         "Developer"
 		},
 		{
-			"name":         "Brad Frost",
-			"homepage":     "http://bradfrostweb.com",
-			"role":         "Creator"
+			"name":         "Mirko Zseby",
+			"email":        "mirko.zseby@mytoys.de",
+			"role":         "Developer"
 		}
 	],
-	"support": {
-		"issues":         "https://github.com/pattern-lab/styleguidekit-twig-default/issues",
-		"wiki":           "http://patternlab.io/docs/",
-		"source":         "https://github.com/pattern-lab/styleguidekit-twig-default/releases"
-	},
 	"require": {
-		"pattern-lab/core": "0.*",
-		"pattern-lab/patternengine-twig": "0.*",
-		"pattern-lab/styleguidekit-assets-default": "0.*",
+		"pattern-lab/core": "0.6.*",
+		"mytoysgroup/patternengine-twig": "0.7.*",
+		"mytoysgroup/styleguidekit-assets-default": "0.7.*",
 		"twig/twig": "1.*"
 	}
 }
