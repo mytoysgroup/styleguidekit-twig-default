@@ -20,6 +20,7 @@
 		"mytoysgroup/patternlab-php-core": "0.6.*",
 		"mytoysgroup/patternengine-php-twig": "0.7.*",
 		"mytoysgroup/styleguidekit-assets-default": "0.7.*",
-		"twig/twig": "1.*"
+		"twig/twig": "1.*",
+		"twig/extensions": "1.*"
 	}
 }
